@@ -1,0 +1,17 @@
+name: Suggestion
+description: Report Suggestion for Improvement
+title: "<Suggestion>"
+labels: ["suggestion", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this suggestion report!
+  - type: textarea
+    id: whats-wrong
+    attributes:
+      label: What's wrong?
+      description: Also tell us, what would you like to see improved?
+      placeholder: What's wrong?
+    validations:
+      required: true
