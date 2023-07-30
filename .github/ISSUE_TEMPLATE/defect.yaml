@@ -1,0 +1,58 @@
+name: Defect
+description: Report Boat Defect
+title: "[]: "
+labels: ["defect", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this damage report!
+
+        If possible also
+  - type: input
+    id: boat
+    attributes:
+      label: Boat
+      description: Boat number or name
+      placeholder: ie. U68
+    validations:
+      required: false
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Also tell us, what did you expect to happen?
+      placeholder: What happened?
+      value: |
+        1.
+        2.
+        3.
+        ...
+    validations:
+      required: true
+  - type: textarea
+    id: whats-broken
+    attributes:
+      label: What is broken?
+      placeholder: What is broken?
+    validations:
+      required: true
+  - type: checkboxes
+    id: state
+    attributes:
+      label: In what state is the boat now?
+      description:
+      options:
+        - label: Not usable
+        - label: Usable
+        - label: Linux
+  - type: textarea
+    id: other
+    attributes:
+      label: Other
+      description: Anything else?
+      placeholder: Anything else?
+  - type: markdown
+    attributes:
+      value: |
+        If possible also select the appropriate **label** in the right-hand column.
