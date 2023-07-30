@@ -37,9 +37,11 @@ body:
       label: In what state is the boat now?
       description:
       options:
-        - label: Usable
-        - label: Not usable
-        - label: Missing
+        - Usable
+        - Not usable
+        - Missing
+    validations:
+      required: true
   - type: textarea
     id: other
     attributes:
