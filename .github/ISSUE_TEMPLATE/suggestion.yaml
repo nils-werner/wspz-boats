@@ -1,6 +1,6 @@
 name: Suggestion
 description: Report Suggestion for Improvement
-title: "<Suggestion>"
+title: "Suggestion Description"
 labels: ["suggestion", "triage"]
 body:
   - type: markdown

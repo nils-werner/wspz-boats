@@ -1,6 +1,6 @@
 name: Defect
 description: Report Boat Defect
-title: "<Boat>: <Defect>"
+title: "Boat: Defect Description"
 labels: ["defect", "triage"]
 body:
   - type: markdown
