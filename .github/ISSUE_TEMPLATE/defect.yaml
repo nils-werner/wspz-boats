@@ -31,7 +31,7 @@ body:
       placeholder: What is broken?
     validations:
       required: true
-  - type: checkboxes
+  - type: dropdown
     id: state
     attributes:
       label: In what state is the boat now?
