@@ -1,0 +1,21 @@
+name: Log Entry
+description: Create Log Entry
+title: "Boat"
+labels: ["log"]
+body:
+  - type: input
+    id: boat
+    attributes:
+      label: Boat
+      description: Boat number or name
+      placeholder: e.g. U68
+    validations:
+      required: true
+  - type: textarea
+    id: sailors
+    attributes:
+      label: Who is sailing?
+      description: Also tell us, what did you expect to happen?
+      placeholder: Why are you?
+    validations:
+      required: true
